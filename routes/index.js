@@ -12,6 +12,5 @@ router.post('/', function (req, res) {
   req.session.username = req.body.username
   req.session.email = req.body.email
   res.redirect('/')
-
 })
 module.exports = router;
